@@ -1,0 +1,309 @@
+body{
+    font-size: 1em;
+    font-family: 'Calibri', sans-serif;
+    background-image: url("images/pozadina.PNG");
+    background-size: 100%;
+}
+header {
+    background-image: linear-gradient(to right, transparent, white, white, transparent);
+}
+#menu a:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Calibri', sans-serif;
+}
+#menu a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Calibri', sans-serif;
+}
+#menu a:hover {
+    color: #4939e0;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Calibri', sans-serif;
+}
+#menu a:active {
+    color: #4939e0;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Calibri', sans-serif;
+}
+#menu div a.belo{
+    color: white;
+}
+div.momentalna {
+    background-image: linear-gradient(#4939e0, darkblue);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Calibri', sans-serif;
+    color: white;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    border-radius: 25px;
+}
+.menu_cell {
+    margin: 0;
+    display: inline;
+    text-align: center;
+    width: 11%;
+}
+#menu {
+    display: flex;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+#pocetno {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    width: 100%;
+    margin: auto;
+}
+#pocetno div{
+    font-size: xx-large;
+    color: #4939e0;
+    background-image: linear-gradient(to right, transparent, white, white, white);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    width: 40%;
+}
+#pocetno div h2{
+    font-style: italic;
+    font-size: xx-large;
+}
+#pocetno img{
+    margin-top: 20px;
+    padding: 10px 10px 10px 0;
+    width: 50%;
+}
+#biografija{
+    width: 87%;
+    margin: auto;
+    margin-top: 15px;
+    background-image: url("images/bio_img.PNG");
+    background-size: cover;
+    height: 100%;
+    border-radius: 30px;
+}
+#biografija div{
+    padding: 6% 5% 6% 43%;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, transparent, transparent, transparent, grey, #666);
+    font-size: large;
+}
+#biografija h1{
+    color: white;
+    background-image: linear-gradient(to right, darkblue, #4939e0, transparent);
+    padding: 10px 30px;
+    border-top-left-radius: 25px;
+    margin-bottom: 0;
+}
+#biografija ul{
+    font-size: x-large;
+    background-image: linear-gradient(to right, white, white, transparent);
+    padding: 20px 50px 30px;
+    border-bottom-left-radius: 25px;
+    margin-top: 0;
+}
+#shkoli {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #4939e0;
+}
+#shkoli div{
+    background-color: white;
+    width: 28%;
+    margin: 15px 10px;
+    display: inline;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 0;
+}
+#shkoli h1{
+    background-image: linear-gradient(#4939e0, darkblue);
+    padding: 5px;
+    margin-top: 0;
+    color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#shkoli div h2 a{
+    background-color: white;
+    color: #4939e0;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+#shkoli div h2 a:hover{
+    color: darkblue;
+}
+#shkoli .zgrada{
+    border-radius: 10px;
+}
+#interesi h2{
+    width: 25%;
+    text-align: center;
+    color:white;
+    background-image: linear-gradient(#4939e0, darkblue);
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: auto;
+    margin-top: 15px;
+}
+#interesi div{
+    margin-bottom: 25px;
+}
+#muzika{
+    background-color: white;
+    border-radius: 25px;
+    width: 87%;
+    margin: auto;
+}
+#slusanje {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 15px;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.album{
+    width: 48%;
+    margin: 0 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.album img{
+    box-sizing: border-box;
+    width: 30%;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid white;
+    float: left;
+    margin-right: 30px;
+}
+.album h3{
+    color: #4939e0;
+    width: 90%;
+    font-size: large;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, white, white, transparent);
+    margin-left: 30px;
+    margin-top: 3.5%;
+    padding: 5px;
+}
+#knigi{
+    background-color: white;
+    border-radius: 25px;
+    width: 87%;
+    margin: auto;
+}
+#knigi p{
+    margin: 0;
+    padding: 15px 0 0 0;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: #4939e0;
+}
+#books {
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 15px;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+.book{
+    width:15%;
+    height: 100%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    text-align: center;
+}
+.book img{
+    box-sizing: border-box;
+    width: 95%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+.book h3{
+    height: 30px;
+}
+.book h4{
+    font-style: italic;
+}
+#fotografija, #umetnost{
+    background-color: white;
+    border-radius: 25px;
+    width: 87%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#fotografija p, #umetnost p, #muzika p, #kontakti > p{
+    margin: 0;
+    padding: 15px 0 0 0;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: #4939e0;
+}
+#photos, #artgallery{
+    display: flex;
+    box-sizing: border-box;
+    padding: 5px 15px 15px 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+#photos img, #artgallery img{
+    width: 22%;
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+}
+#artgallery img:nth-child(n+5){
+    margin-top: -4.5%;
+}
+#kontakti{
+    width: 87%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
+    height: 100%;
+    border-radius: 30px;
+    padding: 0 10px 15px;
+    text-align: center;
+    vertical-align: center;
+    font-size: x-large;
+}
+#kontakti div{
+    padding: 10px 15px;
+    margin: auto;
+    background-color: lightgrey;
+    border-radius: 15px;
+    width: 40%;
+}
